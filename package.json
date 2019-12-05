@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/ITzouyq0908/gittest/issues"
   },
-  "homepage": "https://github.com/ITzouyq0908/gittest#readme"
+  "homepage": "https://github.com/ITzouyq0908/gittest#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
